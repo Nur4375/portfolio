@@ -20,7 +20,7 @@
 nav{
    display: flex;
    justify-content: space-between;
-   margin: 50px 150px;
+   margin:0 150px;
    
 
 }
@@ -33,7 +33,10 @@ nav ul{
    align-items: center;
 }
 .header{
-
+   background: #FFF8F3;
+   background-image: url(../images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
 .btn-primary{
    background-color: #FD6E0A;
@@ -68,6 +71,6 @@ nav ul{
    font-weight: 400;
 font-size: 18px;
 color: #757575;
-font-size: 20px;
+font-size: 18px;
 margin-bottom: 30px;
 }
