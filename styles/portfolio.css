@@ -37,7 +37,8 @@ nav ul{
    background-image: url(../images/header_bg.png), url(../images/developer.png);
    background-repeat: no-repeat;
    background-position: bottom right, left;
-   background-size:unset;
+   background-size: auto 90%, auto 85%;
+   
 }
 .btn-primary{
    background-color: #FD6E0A;
@@ -47,6 +48,7 @@ nav ul{
    border: 0;
    padding: 8px 26px;
    border-radius: 3px;
+   margin-right: 15px;
 }
 .banner{
    display: flex;
@@ -56,7 +58,7 @@ nav ul{
 
 .banner-title{
 
-   font-family: 'Open Sans';
+
    font-style: normal;
    font-weight: 600;
    font-size: 55px;
@@ -127,3 +129,57 @@ main{
    font-weight: 300;
    font-size: 20px;
 }
+/* what i do section  */
+
+.section-title-what{
+   text-align: center;
+   font-weight: 700;
+   font-size: 35px;
+   color: #181818;
+   padding-top: 130px;
+}
+         /* summary section styles */
+
+         .summary-title{
+            font-weight: 700;
+            font-size: 35px;
+            text-align: center;
+            color: #181818;
+            margin-top: 130px;
+            margin-bottom: 130px;
+         }
+
+   /* skill section styles */
+         .skills{
+            display: flex; 
+            justify-content: space-around; 
+            margin-top: 50px;
+            margin-bottom: 10px;
+         }
+
+         .skill-items{
+         padding: 30px;
+         max-width: 15%;
+         border-radius: 6px;
+         text-align: justify;
+         box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 50px;
+         }
+
+    .skill-title{
+      font-weight: 700;
+      font-size: 20px;
+      text-align: left;
+      color: #181818;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+      .skill-sub-title{
+         font-weight: 400;
+         font-size: 16px;
+      /* or 175% */
+      /* Dark 03 */
+         text-align: justify;
+
+         color: #757575;
+      }
