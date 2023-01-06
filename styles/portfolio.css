@@ -249,3 +249,16 @@ main{
          text-align: center;
          margin-top: 50px;
       }
+         /* contact styles */
+         .contact{
+            display: flex;
+            gap: 100px;
+            background: #FFF8F3;
+            padding: 130px 200px;
+         }
+         .contact .section-title{
+            text-align: center;
+            ont-weight: 700;
+            font-size: 35px;
+            color: #181818;
+         }
