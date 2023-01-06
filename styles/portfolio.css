@@ -165,7 +165,7 @@ main{
          box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 50px;
          }
 
-    .skill-title{
+    .skill-tit le{
       font-weight: 700;
       font-size: 20px;
       text-align: left;
@@ -182,4 +182,70 @@ main{
          text-align: justify;
 
          color: #757575;
+      }
+
+      /* resume section styles */
+
+      .resume-content{
+         display: flex;
+         gap: 24px;
+         
+         
+      }
+      .resume-subtitle{
+
+         font-weight: 700;
+         font-size: 30px;
+         color: #474747;
+      }
+      .resume-items-title{
+         font-weight: 700;
+         font-size: 25px;
+         color: #474747;
+         margin-top: 30px;
+      }
+      .resume-items-subtitle{
+         ont-weight: 600;
+      font-size: 20px;
+      color: #757575;
+         margin-top: 10px;
+         margin-bottom: 20px;
+      /* line-height: 27px; */
+      }
+      .resume .section-title{
+         text-align: center;
+         font-weight: 700;
+         font-size: 35px;
+         color: #181818;
+         margin-top: 130px;
+      }
+      .resume .title{
+         color: #474747;
+         font-weight: 700;
+         font-size: 30px;
+         margin-top: 30px;
+         
+        
+         
+      }
+      .resume .sub-title{
+         color: #757575;
+         font-weight: 600;
+         font-size: 27px;
+         margin-bottom: 20px;
+         margin-top: 10px;
+
+      }
+      .resume-items .description{
+
+         color: #757575;
+         font-weight: 400;
+         font-size: 16px;
+         margin-bottom: 20px;
+         /* margin-top: 30px; */
+
+      }
+      .resume-btn{
+         text-align: center;
+         margin-top: 50px;
       }
